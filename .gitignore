@@ -1,0 +1,14 @@
+# Dependencies 
+node_modules
+/src/generated/prisma
+
+# Build
+build
+docker
+
+# Environment
+.env
+
+# Tests
+coverage
+/src/generated/prisma

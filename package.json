@@ -1,0 +1,35 @@
+{
+  "name": "find-a-friend-api",
+  "version": "1.0.0",
+  "description": "FindAFriend API",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaovictor09/desafio-03-api-solid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaovictor09/desafio-03-api-solid/issues"
+  },
+  "homepage": "https://github.com/joaovictor09/desafio-03-api-solid#readme",
+  "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "fastify": "^5.4.0"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^24.0.1",
+    "eslint": "^8.57.1",
+    "prisma": "^6.9.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.2",
+    "typescript": "^5.8.3"
+  }
+}
