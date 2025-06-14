@@ -25,10 +25,14 @@
   "homepage": "https://github.com/joaovictor09/desafio-03-api-solid#readme",
   "dependencies": {
     "@prisma/client": "^6.9.0",
-    "fastify": "^5.4.0"
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.5.0",
+    "fastify": "^5.4.0",
+    "zod": "^3.25.64"
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^24.0.1",
     "@types/supertest": "^6.0.3",
     "eslint": "^8.57.1",
